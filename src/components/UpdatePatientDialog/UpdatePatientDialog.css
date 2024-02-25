@@ -1,0 +1,49 @@
+.updateDialog {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.updateDialog__input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+label {
+    width: 20%;
+}
+
+.updateDialog input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    align-self: center;
+}
+
+.updateDialog button {
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.updateDialog button:hover {
+    background-color: #0056b3;
+}
